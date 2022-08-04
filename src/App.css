@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+.menu {
+background-color: #41B619;
+color: white;
+font-weight: bold;
+width: 230px;
+height: 100%;
+padding: 10px 20px;
+position: fixed;
+top: 0;
+left: 0;
+border-radius: 10px;
+}
+.menu a {
+text-decoration: none;
+color: white;
+width: 100%;
+display: block;
+padding: 8px;
+}
+.menu a:hover {
+color: #41B619;
+background-color: white;
+box-sizing: border-box;
+}
+h1 {
+font-weight: 400;
+font-size: 64px;
+}
+body {
+margin: 0;
+font-family:'East Sea Dokdo', cursive;
+line-height: 1.5;
+}
+.main {
+margin-left: 360px;
+margin-right: 40px;
+margin-top: 80px;
+}
+.images img {
+width: 35%;
+border-radius: 10px;
+margin: 5px;
+}
+.images img:hover {
+opacity: 1;
+transform: scale(2) rotate(-360deg) skew(10deg,10deg);
+transition-duration: 3s;
+}
+h2 {
+color:  #41B619;
+font-size: 48px;
+font-weight: 400;
+margin: 10px 0;
+}
+hr {
+width: 100%;
+border: 5px solid #41B619;
+background-color: #41B619;
+border-radius: 4px;
+margin: 20px 0;
+}
+#services {
+font-size: 20px;
+}
+#designers {
+font-size: 20px;
+}
+.member {
+width: 24%;
+padding: 8px;
+display: inline-block;
+box-sizing: border-box;
+}
+.member img {
+width: 100%;
+filter: grayscale(30%);
+border-radius: 10px;
+}
+.member img:hover {
+transform: scale(2) rotate(-360deg);
+transition-duration: 3s;
+}
+.member .description {
+background-color: #f1f1f1;
+border-radius: 10px;
+padding: 10px;
+}
+.member h3 {
+margin: 0;
+}
+.member .position {
+color: grey;
+}
+.payment {
+width: 49%;
+display: inline-block;
+}
+.payment li{
+border-bottom: 1px solid lightgrey;
+background-color: #f1f1f1;
+list-style-type:none;
+padding: 10px 0;
+border-radius: 10px;
+}
+.payment p {
+margin: 0;
+}
+.tarrifs {
+text-align: center;
+font-size: 25px;
+}
+.payment .tariff-name {
+padding: 20px 0;
+background-image: linear-gradient(#04CE9B,#64E408);
+}
+.price {
+font-size: 45px;
+}
+.payment button {
+padding: 10px 15px;
+background-image: linear-gradient(#04CE9B,#64E408);
+border: none;
+border-radius: 10px;
+outline: none;
+}
+.payment button:hover {
+background-image:  linear-gradient(#F9F047,#0FD850); 
+color:#535353;
+transform: scale(2) rotate(360deg) ;
+transition-duration: 3S;
+}
+.pro .tariff-name {
+background-image: linear-gradient(#F83600,#F9D423);
+}
+.pro button {
+background-image: linear-gradient(#F83600,#F9D423);
+}
+.pro button:hover {
+background-image: linear-gradient(#FE8C00,#F83600);
+}
+input {
+width: 100%;
+padding: 5px;
+border: 1px solid #f1f1f1;
+margin-bottom: 10px;
+outline: none;
+}
+#contact button {
+width: 300px;
+background-image: linear-gradient(#CEFF9D,#8CBA51);
+border: none;
+text-align: center;
+padding: 5px;
+outline: none;
+color: white;
+text-shadow:0px 0px 1px black;
+border-radius: 5px;
+margin-left: 400px;
+}
+#contact button:hover {
+color: green
+}
+#contact label {
+font-size: 25px;
+}
+#footer {
+text-align: right;
+padding: 30px;
+background-color: #f1f1f1;
+}
+#footer a {
+color: black;
+text-decoration: none;
+}
+button:hover {
+transform: scale(2) rotate(360deg);
+transition-duration: 3S;
+}
+a:hover {
+transform: scale(2) rotate(-360deg);
+transition-duration: 2s;
+}
